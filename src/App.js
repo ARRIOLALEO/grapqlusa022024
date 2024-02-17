@@ -2,6 +2,7 @@ import './App.css';
 import { Characters } from './components/Characters';
 import { Character } from './components/Character';
 import { SearchCharacter } from './components/SearchCharacter';
+import { AddProduct } from './components/AddProduct';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         {/* <Characters/> */}
         {/* <Character/> */}
-        <SearchCharacter/>
+        {/* <SearchCharacter/> */}
+        <AddProduct/>
       </header>
     </div>
   );

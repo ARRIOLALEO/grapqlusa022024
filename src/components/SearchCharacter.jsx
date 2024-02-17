@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {useLazyQuery,gql} from '@apollo/client'
+import {useLazyQuery,gql,useMutation} from '@apollo/client'
 
 const CHARACTER_TO_SEARCH = gql`query SearchCharacter($name:String!){
     characters(filter:{name:$name}){
